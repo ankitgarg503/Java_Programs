@@ -28,3 +28,8 @@ class Marry{
 
     }
 }
+
+// int sum(int a,int b){
+//   a+b;
+// }
+// (int a,int b)->a+b

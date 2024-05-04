@@ -8,6 +8,11 @@ public class LINKED_LIST {
 
    public static void main(String[] args) {
     LinkedList<Integer> l1=new LinkedList<Integer>();
+    Stack<Integer> st=new Stack<>();
+    st.add(12);
+    st.add(15);
+    System.out.println(st.lastElement());
+
     LinkedList<String> l2=new LinkedList<String>();
     l2.add("Ankit");
     l2.add("pawan mama");
@@ -24,16 +29,16 @@ public class LINKED_LIST {
         for (int i=0; i<l1.size(); i++){
             System.out.print(l1.get(i)+" ");
         }
-        System.out.println(l1.indexOf(12));
-        System.out.println(l1.indexOf(14));
-        System.out.println(l1.indexOf(19));
-        System.out.println(l1.contains(55));
-        System.out.println();
-        l2.removeLast();
-        l2.removeFirst();
-        for (int i=0; i<l2.size(); i++){
-            System.out.print(l2.get(i)+" ");
-        }
+        // System.out.println(l1.indexOf(12));
+        // System.out.println(l1.indexOf(14));
+        // System.out.println(l1.indexOf(19));
+        // System.out.println(l1.contains(55));
+        // System.out.println();
+        // l2.removeLast();
+        // l2.removeFirst();
+        // for (int i=0; i<l2.size(); i++){
+        //     System.out.print(l2.get(i)+" ");
+        // }
 
    }    
 }
