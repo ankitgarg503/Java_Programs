@@ -1,6 +1,8 @@
 import java.util.*;
 import java.util.Scanner;
 
+import myPackage.sun;
+
 public class array {
     public static void main(String args[]) {
           int arr[]={11,22,3,44,5,56,778,8};
@@ -29,6 +31,8 @@ public class array {
             System.out.print(item+" ");
           }
           
+          sun s1=new sun();
+          s1.display();
 
     }
 }
