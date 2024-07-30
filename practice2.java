@@ -1,6 +1,9 @@
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.LinkedList;
+import java.util.HashSet;
+
+import java.util.HashMap;
 class Demo{
     private int a=5;
     // public void display(){
@@ -19,14 +22,43 @@ class Demo{
     //     }
     // }
 
+    // public void display(){
+    //     LinkedList<Integer> l1=new LinkedList<Integer>();
+    //     l1.add(243);
+    //     l1.add(34);
+    //     l1.addFirst(263);
+    //     Collections.sort(l1);
+    //     for(Integer i1:l1){
+    //         System.out.println(i1);
+    //     }
+    // }
+    // public void display(){
+    //     LinkedList<Integer> l1=new LinkedList<Integer>();
+    //     HashMap<String,Integer> h1 = new HashMap<String,Integer>();
+    //     h1.put("Nitya",23);
+    //     h1.put("tammana",233);
+    //     h1.put("Kavya",123);
+
+    //     System.out.println(h1);
+    //      for(String s1:h1.keySet()){
+    //         System.out.println(s1);
+    //      }
+    //      for(Integer i1:h1.values()){
+    //         System.out.println(i1);
+    //      }
+    // }
     public void display(){
-        LinkedList<Integer> l1=new LinkedList<Integer>();
-        l1.add(23);
-        l1.add(34);
-        l1.addFirst(263);
-        for(Integer i1:l1){
-            System.out.println(i1);
+        HashSet<Integer> h1 = new HashSet<Integer>();
+        h1.add(23);
+        h1.add(21);
+        h1.add(23);
+        h1.add(25);
+
+        System.out.println(h1);
+        for(Integer i1:h1){
+              System.out.println("-->"+i1);
         }
+
     }
 }
 
